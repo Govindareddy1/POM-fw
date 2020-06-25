@@ -34,7 +34,6 @@ public class TestBase {
 	{
 		try
 		{
-			
 			prop=new Properties();
 			FileInputStream ip=new FileInputStream("C:\\Users\\areddy93\\eclipse-workspace\\POM-FW-Naveen\\src\\main\\java\\com\\qa\\config\\config.properties");
 			prop.load(ip);
