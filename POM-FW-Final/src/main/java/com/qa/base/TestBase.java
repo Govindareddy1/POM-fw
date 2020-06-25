@@ -37,7 +37,7 @@ public class TestBase {
 			prop=new Properties();
 			FileInputStream ip=new FileInputStream("C:\\Users\\areddy93\\eclipse-workspace\\POM-FW-Naveen\\src\\main\\java\\com\\qa\\config\\config.properties");
 			prop.load(ip);
-			logger=Logger.getLogger("App logs"); // added logger
+			logger=Logger.getLogger("logapp"); // added logger
 		}
 		catch(FileNotFoundException e)
 		{
